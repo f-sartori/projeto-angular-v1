@@ -1,4 +1,7 @@
+
 $(document).ready(function() {
+	
+	
 
 	$('#main-banner,.gellery').owlCarousel({		
 		autoPlay: 5000,
@@ -180,4 +183,5 @@ $.fn.tabs = function() {
 	});
 	$(this).show();
 	$(this).first().click();
+
 };

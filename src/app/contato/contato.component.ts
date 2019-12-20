@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, Inject } from '@angular/core';
+import * as $ from 'jquery';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-contato',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContatoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elementRef: ElementRef, @Inject(DOCUMENT) private doc) { }
 
   ngOnInit() {
+
+    
+
+
   }
 
 }
