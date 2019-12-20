@@ -14,10 +14,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
 
-    var s1 = document.createElement("script");
-    s1.type = "text/javascript";
-    s1.src = "../assets/javascript/global.js";
-    this.elementRef.nativeElement.appendChild(s1);
+    // var s1 = document.createElement("script");
+    // s1.type = "text/javascript";
+    // s1.src = "../assets/javascript/global.js";
+    // this.elementRef.nativeElement.appendChild(s1);
 
     var s2 = document.createElement("script");
     s2.type = "text/javascript";
@@ -60,7 +60,10 @@ export class HomeComponent implements OnInit {
     s10.src = "../assets/javascript/jquery.parallax.js";
     this.elementRef.nativeElement.appendChild(s10);
 
-
+    var s11 = document.createElement("script");
+    s11.type = "text/javascript";
+    s11.src = "../assets/js/jQuery.js";
+    this.elementRef.nativeElement.appendChild(s11);
 
 
 

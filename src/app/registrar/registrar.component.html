@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="col-sm-9" id="content">
-            <p>Se você já possui uma conta <a href="login.html">logue-se aqui</a>.</p>
+            <p>Se você já possui uma conta <a  [routerLink]="'/login'">logue-se aqui</a>.</p>
             <form class="form-horizontal" enctype="multipart/form-data" method="post" action="register.html">
               <fieldset id="account">
                 <legend>Dados</legend>
@@ -456,7 +456,7 @@
                 </div>
               </fieldset>
               <fieldset>
-                <legend>Your Password</legend>
+                <legend>Senha</legend>
                 <div class="form-group required">
                   <label for="input-password" class="col-sm-2 control-label">Senha</label>
                   <div class="col-sm-10">
