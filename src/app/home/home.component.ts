@@ -49,10 +49,10 @@ export class HomeComponent implements OnInit {
     s7.src = "../assets/javascript/owl-carousel/owl.carousel.min.js";
     this.elementRef.nativeElement.appendChild(s7);
 
-    var s8 = document.createElement("script");
-    s8.type = "text/javascript";
-    s8.src = "../assets/javascript/javascript/jquery-2.1.1.min.js";
-    this.elementRef.nativeElement.appendChild(s8);
+    // var s8 = document.createElement("script");
+    // s8.type = "text/javascript";
+    // s8.src = "../assets/javascript/javascript/jquery-2.1.1.min.js";
+    // this.elementRef.nativeElement.appendChild(s8);
 
 
     var s10 = document.createElement("script");
@@ -60,10 +60,10 @@ export class HomeComponent implements OnInit {
     s10.src = "../assets/javascript/jquery.parallax.js";
     this.elementRef.nativeElement.appendChild(s10);
 
-    var s11 = document.createElement("script");
-    s11.type = "text/javascript";
-    s11.src = "../assets/js/jQuery.js";
-    this.elementRef.nativeElement.appendChild(s11);
+    // var s11 = document.createElement("script");
+    // s11.type = "text/javascript";
+    // s11.src = "../assets/js/jQuery.js";
+    // this.elementRef.nativeElement.appendChild(s11);
 
 
 

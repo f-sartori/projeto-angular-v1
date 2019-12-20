@@ -174,19 +174,19 @@ function gridlistactive(){
 
 $('.btn-list-grid button').on('click', function() {
 
-if($(this).hasClass('grid')) {
+if($(this).hasClass('list')) {
 
   $('.btn-list-grid button').addClass('active');
 
-  $('.btn-list-grid button.list').removeClass('active');
+  $('.btn-list-grid button.grid').removeClass('active');
 
 }
 
-  else if($(this).hasClass('list')) {
+  else if($(this).hasClass('grid')) {
 
 	$('.btn-list-grid button').addClass('active');
 
-  $('.btn-list-grid button.grid').removeClass('active');
+  $('.btn-list-grid button.list').removeClass('active');
 
   }
 

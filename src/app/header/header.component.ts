@@ -46,15 +46,15 @@ export class HeaderComponent implements OnInit {
     s7.src = "../assets/javascript/owl-carousel/owl.carousel.min.js";
     this.elementRef.nativeElement.appendChild(s7);
 
-    var s8 = document.createElement("script");
-    s8.type = "text/javascript";
-    s8.src = "../assets/javascript/javascript/jquery-2.1.1.min.js";
-    this.elementRef.nativeElement.appendChild(s8);
+    // var s8 = document.createElement("script");
+    // s8.type = "text/javascript";
+    // s8.src = "../assets/javascript/javascript/jquery-2.1.1.min.js";
+    // this.elementRef.nativeElement.appendChild(s8);
 
-    var s9 = document.createElement("script");
-    s9.type = "text/javascript";
-    s9.src = "../assets/js/jQuery.js";
-    this.elementRef.nativeElement.appendChild(s9);
+    // var s9 = document.createElement("script");
+    // s9.type = "text/javascript";
+    // s9.src = "../assets/js/jQuery.js";
+    // this.elementRef.nativeElement.appendChild(s9);
 
     var s10 = document.createElement("script");
     s10.type = "text/javascript";
